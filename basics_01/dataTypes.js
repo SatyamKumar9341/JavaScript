@@ -16,4 +16,5 @@ let isLoggedOut = false   // boolean
 
 console.log(typeof null)
 console.log(typeof name)
-console.log([typeof age, isLoggedOut])
+console.log(typeof age)
+console.log(typeof isLoggedOut)
