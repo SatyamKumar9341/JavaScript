@@ -31,3 +31,14 @@ console.log(Math.sqrt(81))  // sqrt() => returns square root of the given value
 console.log(Math.min(9, 45, 3, 8)) // min() => return minimum value from array of numbers
 console.log(Math.max(9, 45, 3, 8)) // max() => returns maximum value from array of numbers
 
+console.log(Math.random());  // Math.random() => returns random values ranging btw 0-1 
+console.log(Math.random()*10); // Shifts digit to left side
+console.log((Math.random()*10) + 1) // random number can be 0.03..., so adding 1 never gives 0
+console.log(Math.floor((Math.random() * 10) + 1))  // to get minimus round off value
+
+
+// To get The between some range like below - 10 to 20
+const min = 10
+const max = 20
+
+console.log(Math.floor((Math.random() * (max - min + 1) + min)))
