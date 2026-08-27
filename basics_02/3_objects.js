@@ -30,7 +30,6 @@ console.log(JsUser.email)              // doesn't change value for the key email
 console.log(JsUser)
 
 
-
 // functions 
 
 JsUser.greeting  = function(){
@@ -38,7 +37,7 @@ JsUser.greeting  = function(){
 }
 
 JsUser.greetingTwo = function(){
-    console.log(`Hello JS User, ${this["full name"]}`)
+    console.log(`Hello JS User, ${this["full name"]}`)  // accessing value via key from object(JsUser)
 }
 
 console.log(JsUser.greeting())
