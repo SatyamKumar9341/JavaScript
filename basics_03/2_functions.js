@@ -21,7 +21,7 @@ function handleObject(anyObject){
 handleObject(user)
 
 
-// Also, object can be passed in functions Argument :-
+// Also, object can be passed directly in functions Argument :-
 function HandleObj(Obj){
     console.log(`Course is ${Obj.course} Price is ${Obj.price}`)
 }
@@ -31,7 +31,7 @@ HandleObj({
 })
 
 
-// passing an array in function :-
+// passing an array as an argument in function :-
 const arr = [20, 80, 40, 60]
 
 function returnSecondValue(anyArray){
