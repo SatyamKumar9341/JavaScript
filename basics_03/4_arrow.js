@@ -36,3 +36,21 @@ const add = (num1, num2) => ( num1 + num2 )    // implicit return
 console.log(add(3, 4))
 
 
+
+
+// ************************* Explicit and Implicit return ****************************************** //
+
+
+// 1. Explicit Return :
+// You write the return keyword yourself
+// Eg:-
+// const Add = (a, b) => {
+//     return a + b
+// }
+// console.log(add(10, 20))
+
+// 2. Implicit Return :
+// With an arrow function, if you remove {}, the expression is automatically returned.
+// Eg :-
+// const Add = (a, b) => a + b
+// console.log(add(10, 20))
