@@ -41,4 +41,20 @@ if(loggedFromEmail || loggedFromGoogle){
 
 
 
+// Nullish Coalescing Operator (??) : null, undefined
+//The nullish coalescing operator ?? is used to provide a default value only when the left-hand side is null or undefined
 
+let value;
+// value = 5 ?? 10
+// value = null ?? 10
+// value = undefined ?? 15
+value = null ?? 10 ?? 20
+
+console.log(value)
+
+
+// terniary operator (?) :
+// condition ? true : false
+
+const teaPrice = 20
+teaPrice <= 20 ? console.log("Tea Price is less than 20 rs") : console.log("tea price is more than 20 rs")
