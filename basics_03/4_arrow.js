@@ -1,9 +1,9 @@
 const user = {
-    username: "satyam",
+    course: "satyam",
     price: 999,
 
     welcomeMesg: function(){
-        console.log(`${this.username}, welcome to website`)
+        console.log(`${this.course}, welcome to website`)
         console.log(this)
     }
 }
