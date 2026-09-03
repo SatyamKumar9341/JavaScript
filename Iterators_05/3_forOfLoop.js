@@ -25,12 +25,11 @@ for(const greet of greetings){
 
 
 // Maps : maintains the order as well as uniquenes
-
 const map = new Map()
 map.set("IN", "India")
 map.set("USA", "United States Of America")
 map.set("EU", "Europe")
-map.set("IN", "India")    // adding same item wont exist in maps
+map.set("IN", "India")    // adding same item won't exist in maps
 
 // console.log(map)
 
@@ -47,7 +46,7 @@ const myObject = {
     'game3' : 'GTA'
 }
 
-// for(const [key, value] of myObject){
+// for(const [key, value] of myObject){       // for of Loop does'nt works on objects directly
 //     console.log(key, ":-", value)
 
 // }
