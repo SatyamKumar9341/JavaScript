@@ -45,7 +45,7 @@ for (let index = 1; index <= 10; index++) {
 
     }
 
-    console.log(`Value if i is ${index}`)
+    console.log(`Value of i is ${index}`)
     
 }
 
@@ -59,6 +59,6 @@ for (let index = 1; index <= 10; index++) {
 
     }
 
-    console.log(`Value if i is ${index}`)
+    console.log(`Value of i is ${index}`)
     
 }
