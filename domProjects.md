@@ -1,6 +1,6 @@
 #  Projects related to DOM
 
-## project 1
+## project 1 - Background Color Chnager
 ```javascript
 // selecting buttons 
 const button = document.querySelectorAll('.button')
