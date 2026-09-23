@@ -1,3 +1,7 @@
+#  Projects related to DOM
+
+## project 1
+```javascript
 // selecting buttons 
 const button = document.querySelectorAll('.button')
 // selecting body
@@ -23,3 +27,5 @@ button.forEach( function(btn){
         // }
     })
 });
+
+```
