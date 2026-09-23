@@ -1,1 +1,27 @@
+.button {
+    display: inline-block;
 
+    width: 120px;
+    height: 120px;
+
+    border: 3px solid #555;
+
+    margin: 0 2px;
+
+    cursor: pointer;
+}
+#grey {
+    background-color: grey;
+}
+
+#white{
+    background-color: white;
+}
+
+#green{
+    background-color: green;
+}
+
+#yellow{
+    background-color: yellow;
+}
